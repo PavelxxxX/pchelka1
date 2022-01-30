@@ -1,0 +1,74 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	background-color: rgba(128, 128, 128, 0.356);
+}
+.wrapper{
+	width: 900px;
+	margin: 0 auto;
+	background-color: rgb(255, 255, 255);
+}
+.block{
+	background-color: orange;
+}
+nav{
+	padding: 15px;
+}
+nav a{
+	padding: 5px;
+	font: 16px Arial;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+nav a:hover, nav a.active{
+	text-decoration: underline;
+}
+.conteiner{
+	display: flex;
+	padding: 20px;
+}
+main{
+	margin-right: 20px;
+	text-align: justify;
+	width: 490px;
+}
+h1{
+	font: 20px Arial;
+	font-weight: bold;
+}
+p{
+	font: 16px "Arial";
+	font-weight: normal;
+}
+main img{
+	width: 490px;
+}
+table{
+	width: 490px;
+	border: 1px solid black;
+	border-collapse: separate;
+	empty-cells: hide;
+}
+th{
+	background-color: rgba(128, 128, 128, 0.192);
+}
+th, td {
+	border: 1px solid black;
+	text-align: center;
+}
+aside h1{
+	font: 16px Arial;
+	font-weight: bold;
+}
+.footer{
+	background-color: orange;
+}
+footer{
+	text-align: center;
+	padding: 25px;
+	color: white;
+	font: 16px Arial;
+}
